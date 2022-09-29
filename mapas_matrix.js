@@ -289,7 +289,7 @@ function popup2(feature, layer) {
 		layer.bindTooltip("<div id='custom'>"
 		+"<strong>Municipio: </strong>"+feature.properties.nameunit.toLocaleString()+"<br>"
              
-            	+"<strong>Tasa de contratación: </strong>"+feature.properties.tc.toFixed(0).toLocaleString().replace(".",",")+"%",
+            	+"<strong>Tasa de contratación:</strong>"+feature.properties.tc.toFixed(0).toLocaleString().replace(".",",")+"%",
 
 			{direction:"centerleft",sticky:true, permanente:true,offset:[0,-5], pane: 'popups',});	
 	};
