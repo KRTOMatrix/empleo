@@ -12,6 +12,7 @@ var map = L.map('map', {
 	});
 
 
+
 ///////////Funcionalidades estructura del visor///////////
 
 //Layers on top
